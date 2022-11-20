@@ -1,0 +1,80 @@
+:root{
+    --font: 'Montserrat',sans-serif;
+}
+/* Title */
+main {
+    margin-top: 65px;
+    height: 700px;
+    width: 1482px;
+    background-image: url("./images/doctor-with-stethoscope-hand-hospital-background-medical-medicine-concept_34200-278.jpg");
+}
+
+main .blur {
+    margin-top: 65px;
+    height: 700px;
+    width: 1482px;
+    background-color: rgba(0, 0, 0, 0.67);
+}
+
+.blur-textbox {
+    max-width: 600px;
+    background-color: rgba(245, 245, 245, 0.521);
+    display: inline-block;
+    border-radius: 10px;
+    position: relative;
+    top: 220px;
+    left: 120px;
+    padding: 25px;
+}
+
+.blur-textbox h1 {
+    font-family: var(--font);
+    font-weight: 800;
+    font-size: 3rem;
+    color: #5e68ff;
+}
+
+.blur-textbox h1::before {
+    content: open-quote;
+}
+
+.blur-textbox h1::after {
+    content: close-quote;
+}
+
+.blur-textbox p {
+    font-size: 1.8rem;
+    font-family: var(--font);
+}
+
+/* Display items */
+.equipment .container-fluid {
+    padding: 40px 40px 0;
+}
+
+.equipment .text{
+    font-family: var(--font);
+    font-size: 1.5rem;
+    margin: auto 50px;
+}
+.equipment-1,
+.equipment-2,
+.equipment-3 {
+    display: flex;
+    margin: 80px 150px;
+}
+
+.equipment-1,
+.equipment-3 {
+    flex-direction: row;
+}
+
+.equipment-2 {
+    flex-direction: row-reverse;
+}
+
+.equipment img {
+    height: 220px;
+    width: 300px;
+    border-radius: 12px;
+}

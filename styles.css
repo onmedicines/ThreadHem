@@ -1,0 +1,182 @@
+/*HTML elements*/
+li {
+    transition: 350ms;
+}
+
+footer {
+    height: 300px;
+}
+
+hr {
+    margin:30px;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    padding: 15px;
+    text-align: center;
+}
+
+/*Main*/
+.navbar-container-fluid {
+    margin: 10px 50px 10px 30px;
+    justify-content: space-between;
+}
+
+.navbar-brand-span {
+    color: #4e5af8;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+
+.nav-item {
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.nav-link {
+    color: black;
+}
+
+.separator{
+    margin: 6px 2px auto;
+
+}
+
+.bg-img {
+    height: 650px;
+    width: 1481.8px;
+    margin-top: 65px;
+    background-image: url("./images/physician-recertifications---blog-news---amn-min.jpg");
+    background-repeat: no-repeat;
+}
+
+.bg-img-textbox {
+    position: relative;
+    top: 220px;
+    left: 100px;
+    width: 500px;
+    height: 300px;
+    background-color: rgba(25, 25, 23, 0.714);
+    border-radius: 10px;
+}
+
+.bg-img-text1 {
+    font-weight: 800;
+    padding: 22px;
+    padding-bottom: 10px;
+    color: #5e68ff;
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.bg-img-text2 {
+    padding: 22px;
+    padding-top: 0;
+    color: antiquewhite;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*About*/
+.about{
+    text-align: center;
+    align-items: center;
+}
+.about h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 45px;
+    font-weight: 800;
+    margin: 70px auto 25px auto;
+    color: #5861e0;
+}
+.about p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    padding-left: 95px;
+    padding-right: 95px;
+    
+}
+.about hr{
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+
+/*Footer*/
+.footer-logo {
+    margin-top: 30px;
+    margin-left: 60px;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    
+}
+
+.footer-brand {
+    position: relative;
+    top: 20px;
+    padding: 20px 20px 20px 2px;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: #3542f0;
+}
+
+.fa-brands {
+    font-size: 25px;
+    margin: 20px;
+    transition: color 250ms, font-size 250ms, margin 250ms;
+}
+
+.footer-social-div {
+    height: 80px;
+    display: block;
+    text-align: center;
+}
+
+/*HOVER CSS*/
+
+/*Main*/
+li:hover {
+    text-decoration: underline;
+}
+
+.navbar-brand-span:hover {
+    color: #4e5af8;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*Footer*/
+.fa-facebook:hover {
+    color: #3b5998;
+    font-size: 35px;
+    margin: 15px;
+    margin-top: 10px;
+}
+
+.fa-instagram:hover {
+    color: rgb(255, 95, 196);
+    font-size: 35px;
+    margin: 16px;
+    margin-top: 10px;
+}
+
+.fa-twitter:hover {
+    color: #00acee;
+    font-size: 35px;
+    margin: 15px;
+    margin-top: 10px;
+}
+
+.fa-youtube:hover {
+    color: #FF0000;
+    font-size: 35px;
+    margin: 14px;
+    margin-top: 10px;
+}
